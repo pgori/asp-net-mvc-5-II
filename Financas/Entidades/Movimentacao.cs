@@ -15,8 +15,8 @@ namespace Financas.Entidades
         public DateTime Data { get; set; }
         [Required]
         public Tipo Tipo { get; set; }
-        public int UsuarioId { get; set; }
         [Required]
+        public int UsuarioId { get; set; }
         public virtual Usuario Usuario { get; set; }
     }
 }
